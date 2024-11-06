@@ -1,0 +1,19 @@
+.top{
+    background-color: #F0F7EE;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: flex-end;
+    width: 100vh;
+}
+
+.container{
+    text-align: right;
+}
+
+.info{
+    list-style: none;
+    display: flex;
+    padding-top: 0.75rem ;
+}
