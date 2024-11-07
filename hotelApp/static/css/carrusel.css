@@ -1,0 +1,14 @@
+.carousel-item{
+    height: 70vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size:cover;
+    width: 100%;
+}
+
+.carousel-item img {
+    object-fit: cover; /* Hace que la imagen ocupe todo el espacio del contenedor */
+    height: 100%; /* Asegura que la imagen cubra todo el alto de la diapositiva */
+    width: 100%; /* Asegura que la imagen cubra todo el ancho de la diapositiva */
+    object-position: center; /* Centra la imagen vertical y horizontalmente */
+}
